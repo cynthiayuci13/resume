@@ -1,0 +1,103 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-logo-instagram: unicode(ea02);
+$icon-logo-fb-simple: unicode(ea03);
+$icon-logo-github: unicode(ea04);
+$icon-line: unicode(ea05);
+$icon-style-2: unicode(ea07);
+$icon-components: unicode(ea08);
+$icon-code: unicode(ea09);
+$icon-laptop-72: unicode(ea0a);
+$icon-pc: unicode(ea0b);
+$icon-pacman: unicode(ea0d);
+$icon-joint-account: unicode(ea0e);
+$icon-privacy-policy: unicode(ea0f);
+$icon-privacy-policy-2: unicode(ea11);
+$icon-pacman-2: unicode(ea12);
+$icon-pc-2: unicode(ea13);
+$icon-code-2: unicode(ea14);
+$icon-components-2: unicode(ea15);
+$icon-style-2-3: unicode(ea16);
+$icon-double-tap: unicode(ea17);
+
+.icon-logo-instagram::before {
+  content: $icon-logo-instagram;
+}
+
+.icon-logo-fb-simple::before {
+  content: $icon-logo-fb-simple;
+}
+
+.icon-logo-github::before {
+  content: $icon-logo-github;
+}
+
+.icon-line::before {
+  content: $icon-line;
+}
+
+.icon-style-2::before {
+  content: $icon-style-2;
+}
+
+.icon-components::before {
+  content: $icon-components;
+}
+
+.icon-code::before {
+  content: $icon-code;
+}
+
+.icon-laptop-72::before {
+  content: $icon-laptop-72;
+}
+
+.icon-pc::before {
+  content: $icon-pc;
+}
+
+.icon-pacman::before {
+  content: $icon-pacman;
+}
+
+.icon-joint-account::before {
+  content: $icon-joint-account;
+}
+
+.icon-privacy-policy::before {
+  content: $icon-privacy-policy;
+}
+
+.icon-privacy-policy-2::before {
+  content: $icon-privacy-policy-2;
+}
+
+.icon-pacman-2::before {
+  content: $icon-pacman-2;
+}
+
+.icon-pc-2::before {
+  content: $icon-pc-2;
+}
+
+.icon-code-2::before {
+  content: $icon-code-2;
+}
+
+.icon-components-2::before {
+  content: $icon-components-2;
+}
+
+.icon-style-2-3::before {
+  content: $icon-style-2-3;
+}
+
+.icon-double-tap::before {
+  content: $icon-double-tap;
+}
+
