@@ -532,6 +532,7 @@ img.block-right {
   color: #fff;
   display: inline-block;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .about-info a:hover {
