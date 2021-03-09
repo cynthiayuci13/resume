@@ -19,7 +19,7 @@
 /* ===================================
     1. Global CSS
 ====================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
 * {
   box-sizing: border-box;
   outline: none !important;
@@ -34,7 +34,7 @@ body {
   color: #000000;
   line-height: 2;
   font-size: 15px;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   font-weight: 400;
   min-width: 320px;
   position: relative;
@@ -103,11 +103,12 @@ img.block-right {
 }
 
 .section h2.title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 26px;
   line-height: 150%;
   letter-spacing: 5px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .section {
@@ -128,6 +129,7 @@ img.block-right {
 }
 
 .section .section-des {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -228,7 +230,7 @@ img.block-right {
 }
 
 .nav-container .site-title:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -3px;
   right: 5px;
@@ -301,7 +303,7 @@ img.block-right {
 
 .nav-btn .nav-btn-cover:after,
 .nav-btn .nav-btn-cover:before {
-  content: "";
+  content: '';
   height: 3px;
   width: 30px;
   position: absolute;
@@ -376,8 +378,7 @@ img.block-right {
   font-size: 18px;
   color: #000;
   line-height: 1.2;
-  font-weight: 600;
-  font-family: 微軟正黑體;
+  font-weight: 500;
 }
 
 #home .main-btn {
@@ -416,7 +417,9 @@ img.block-right {
 .section-des {
   max-width: 440px;
   font-size: 22px;
+  font-weight: 700;
   line-height: 1.65;
+  color: #f44647;
 }
 
 .serv-link-cover {
@@ -442,7 +445,7 @@ img.block-right {
 }
 
 .serv-link-cover a:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 5px;
   right: 0;
@@ -541,6 +544,7 @@ img.block-right {
 
 .about-text p {
   max-width: 670px;
+  margin-bottom: 8px;
 }
 
 .signature {
@@ -903,7 +907,7 @@ div.pp_default .pp_description {
 }
 
 .skills-history li:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 21%;
   top: 0;
@@ -925,7 +929,7 @@ div.pp_default .pp_description {
 .skills-history li .date {
   flex: 0 0 18%;
   max-width: 18%;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 14px;
   line-height: 30px;
   transition: 0.35s ease-out;
@@ -1009,10 +1013,10 @@ div.pp_default .pp_description {
   margin-bottom: 0;
 }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
+.contact-form input[type='text'],
+.contact-form input[type='email'],
 .contact-form textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   line-height: 25px;
   letter-spacing: 3px;
@@ -1029,7 +1033,7 @@ div.pp_default .pp_description {
   box-sizing: initial;
 }
 
-.contact-form input[name="your-name"] {
+.contact-form input[name='your-name'] {
   margin-top: 0;
   padding-top: 0;
 }
@@ -1043,7 +1047,7 @@ p.contact-submit-holder {
   margin-bottom: 0 !important;
 }
 
-.contact-form input[type="submit"] {
+.contact-form input[type='submit'] {
   display: inline-block;
   border: 2px solid;
   text-align: center;
@@ -1054,7 +1058,7 @@ p.contact-submit-holder {
   text-decoration: none;
   background-color: transparent;
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   width: 100%;
   letter-spacing: 8px;
@@ -1062,14 +1066,14 @@ p.contact-submit-holder {
   cursor: pointer;
 }
 
-.contact-form input[type="submit"]:hover {
+.contact-form input[type='submit']:hover {
   opacity: 0.8;
 }
 
-.contact-form input[type="text"]::-webkit-input-placeholder,
-.contact-form input[type="email"]::-webkit-input-placeholder,
+.contact-form input[type='text']::-webkit-input-placeholder,
+.contact-form input[type='email']::-webkit-input-placeholder,
 .contact-form textarea::-webkit-input-placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 12px;
@@ -1077,10 +1081,10 @@ p.contact-submit-holder {
   opacity: 1;
 }
 
-.contact-form input[type="text"]:-ms-input-placeholder,
-.contact-form input[type="email"]:-ms-input-placeholder,
+.contact-form input[type='text']:-ms-input-placeholder,
+.contact-form input[type='email']:-ms-input-placeholder,
 .contact-form textarea:-ms-input-placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 12px;
@@ -1088,10 +1092,10 @@ p.contact-submit-holder {
   opacity: 1;
 }
 
-.contact-form input[type="text"]::placeholder,
-.contact-form input[type="email"]::placeholder,
+.contact-form input[type='text']::placeholder,
+.contact-form input[type='email']::placeholder,
 .contact-form textarea::placeholder {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #000;
   font-weight: 400;
   font-size: 12px;
@@ -1140,7 +1144,7 @@ p.contact-submit-holder {
 }
 
 .single-blog .thumbnail-img:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -1655,4 +1659,22 @@ p.contact-submit-holder {
     float: none;
     margin-left: 0;
   }
+}
+
+/* custom style */
+p.part {
+  margin-bottom: 0;
+}
+.focus {
+  text-decoration: underline;
+  font-size: 16px;
+}
+.year {
+  padding-right: 10px;
+  font-weight: bold;
+  color: #f44747;
+}
+.global {
+  list-style: disc;
+  padding-left: 23px;
 }
